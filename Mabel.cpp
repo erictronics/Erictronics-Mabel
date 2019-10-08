@@ -18,7 +18,10 @@ Mabel::Mabel(){}
 void Mabel::conflicts(){}
 
 void Mabel::version(){
-	Serial.println(F("MABEL (ELECTRON) - VERSION 1"));	
+	Serial.println(F("MABEL (ELECTRON)"));
+	Serial.println(F("VERSION 1"));	
+	Serial.println(F("DESIGNED BY: ERIC OBENG (PROFESIR))"));
+	Serial.println(F("@ERICTRONICS"));
 	Serial.println();
 }
 

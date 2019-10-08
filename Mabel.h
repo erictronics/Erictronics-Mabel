@@ -19,11 +19,11 @@
 class Mabel{
 	private:	
 	public:
-		const byte PIR = A1, POT = A3, LDR = A2, LM35 = A4, BTN1 = A5, BTN2 = 2;
-		const byte BUZ = 3, BLNK = 13, RLY = 13, IR_LED = 5, IR_RECV = 6;
+		const byte PIR = A1, POT = A3, LDR = A2, LM35 = A4, BUTTON1 = A5, BUTTON2 = 2;
+		const byte BUZZER = 3, BLINK = 13, RELAY = 13, IR_LED = 5, IR_RECIEVER = 6;
 		const byte RGB[3] = {9,10,11};
 		const byte BAR[9] = {2,3,4,5,6,7,8,9,10};
-		const byte TLIG[9] = {8,9,10,5,6,7,2,3,4};
+		const byte TLIGHT[9] = {8,9,10,5,6,7,2,3,4};
 		const byte RING[12] = {9,10,11,12,2,3,4,5,6,7,8,13};
 		const byte MSB[7] = {2,3,4,5,6,7,8};
 		const byte LSB[7] = {9,10,11,12,13,14,15};
