@@ -31,9 +31,13 @@ class Mabel{
 		
 		//Constructor
 		Mabel();
+		// Display all experiment conflicts
 		void conflicts();
+		// Display the version of mabel
 		void version();
+		// Display all known errors on board
 		void errors();
+		// Display basic info about mabel
 		void info();
 };
 
