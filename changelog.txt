@@ -1,0 +1,2 @@
+1. Changed experiment names to match name on board
+2. Changed buttons to BTN array
